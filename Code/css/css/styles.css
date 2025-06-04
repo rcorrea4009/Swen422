@@ -1,0 +1,65 @@
+/* Random color scheme for now */
+:root {
+    --primary-color: #1b2147;
+    --secondary-color: #5b64e8;
+    --accent-color: #e74c3c;
+    --text-color: #000000;
+    --bg-color: #ffffff;
+    --nav-width: 200px;
+  }
+  
+  /* Base Styles */
+  body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    /* line-height: 1.6; */
+  }
+
+  main {
+    /* background-color: #ddcbc9; */
+    margin-left: var(--nav-width);
+    padding: 20px;
+  } 
+  
+  /* Main Content */
+  h1 {
+    color: var(--primary-color);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--secondary-color);
+  }
+  
+  /* Side Navigation */
+  .sidenav {
+    height: 100%;
+    width: var(--nav-width);
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--primary-color);
+    padding-top: 40px;
+  }
+  
+  .sidenav a {
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 1.1em;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    border-left: 4px solid transparent;
+  }
+  
+  .sidenav a:hover {
+    background-color: rgba(255,255,255,0.1);
+    border-left: 5px solid var(--accent-color);
+    color: white;
+  }
+  
+  .sidenav a.active {
+    background-color: var(--secondary-color);
+    border-left: 4px solid var(--accent-color);
+  }
