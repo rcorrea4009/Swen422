@@ -1,0 +1,109 @@
+{
+    "table_id": "Table3",
+    "title": "Severely housing deprived people by housing deprivation category, count and prevalence rate (2018)",
+    "data": {
+        "name": "Housing Deprivation",
+        "children": [
+          {
+            "name": "Without Shelter",
+            "children": [
+              {
+                "name": "Roofless/rough sleeper", 
+                "description": "temporary description",
+                "count": 207, 
+                "rate": 0.4
+              },
+              {
+                "name": "Improvised dwelling", 
+                "description": "temporary description",
+                "count": 1347, 
+                "rate": 2.9
+              },
+              {
+                "name": "Mobile dwelling", 
+                "description": "temporary description",
+                "count": 2070, 
+                "rate": 4.4
+              }
+            ],
+            "total_count": 3624,
+            "total_rate": 7.7
+          },
+          {
+            "name": "Temporary Accommodation",
+            "children": [
+              {
+                "name": "Emergency/Transitional",
+                "children": [
+                  {
+                    "name": "Night shelter", 
+                    "count": 69, 
+                    "rate": 0.1
+                  },
+                  {
+                    "name": "Women's refuge", 
+                    "count": 96, 
+                    "rate": 0.2
+                  },
+                  {
+                    "name": "Other homeless accommodation", 
+                    "description": "temporary description1",
+                    "count": 1530, 
+                    "rate": 3.3
+                  }
+                ],
+                "total_count": 1695,
+                "total_rate": 3.6
+              },
+              {
+                "name": "Commercial",
+                "children": [
+                  {
+                    "name": "Camping grounds",
+                    "count": 1521,
+                    "rate": 3.2
+                  },
+                  {
+                    "name": "Boarding houses/hotels", 
+                    "count": 4668, 
+                    "rate": 9.9}
+                ],
+                "total_count": 6189,
+                "total_rate": 13.2
+              },
+              {"name": "Marae", "count": 45, "rate": 0.1}
+            ],
+            "total_count": 7929,
+            "total_rate": 16.9
+          },
+          {
+            "name": "Sharing Accommodation", 
+            "count": 30171,
+            "description": "People living in a cramped accomodation",
+            "rate": 64.2
+          },
+          {
+            "name": "Uninhabitable Housing",
+            "count": 60399, 
+            "description": "People who are living in housing without one or more basic amenities",
+            "rate": 128.5
+          }
+        ]
+    }, 
+
+    "totals": {
+      "categories_1_2_3": {
+        "count": 41724,
+        "prevalence_rate": 88.8
+      },
+      "all_categories": {
+        "count": 102123,
+        "prevalence_rate": 217.3
+      }
+    },
+    "notes": [
+      "Commercial accommodation counts are randomly rounded to base three plus proportions of children",
+      "Prevalence rate denominator: 2018 NZ usually resident population",
+      "Sources: Stats NZ, HUD, and emergency housing providers"
+    ]
+  }

@@ -1,0 +1,365 @@
+{
+    "homelessness_data": {
+      "regional_data": [
+        {
+          "region": "Northland",
+          "categories": {
+            "without_shelter": {
+              "number": 765,
+              "prevalence_rate": 42.7
+            },
+            "temporary_accommodation": {
+              "number": 496,
+              "prevalence_rate": 27.7
+            },
+            "sharing_accommodation": {
+              "number": 1407,
+              "prevalence_rate": 78.6
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 2668,
+            "percentage": 6.4,
+            "prevalence_rate": 149
+          }
+        },
+        {
+          "region": "Gisborne",
+          "categories": {
+            "without_shelter": {
+              "number": 42,
+              "prevalence_rate": 8.8
+            },
+            "temporary_accommodation": {
+              "number": 78,
+              "prevalence_rate": 16.4
+            },
+            "sharing_accommodation": {
+              "number": 450,
+              "prevalence_rate": 94.7
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 570,
+            "percentage": 1.4,
+            "prevalence_rate": 120
+          }
+        },
+        {
+          "region": "Auckland",
+          "categories": {
+            "without_shelter": {
+              "number": 510,
+              "prevalence_rate": 3.2
+            },
+            "temporary_accommodation": {
+              "number": 2437,
+              "prevalence_rate": 15.5
+            },
+            "sharing_accommodation": {
+              "number": 15210,
+              "prevalence_rate": 96.8
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 18157,
+            "percentage": 43.8,
+            "prevalence_rate": 115.5
+          }
+        },
+        {
+          "region": "Hawke's Bay",
+          "categories": {
+            "without_shelter": {
+              "number": 123,
+              "prevalence_rate": 7.4
+            },
+            "temporary_accommodation": {
+              "number": 366,
+              "prevalence_rate": 22
+            },
+            "sharing_accommodation": {
+              "number": 1308,
+              "prevalence_rate": 78.6
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 1797,
+            "percentage": 4.3,
+            "prevalence_rate": 108
+          }
+        },
+        {
+          "region": "Tasman",
+          "categories": {
+            "without_shelter": {
+              "number": 129,
+              "prevalence_rate": 24.6
+            },
+            "temporary_accommodation": {
+              "number": 231,
+              "prevalence_rate": 44.1
+            },
+            "sharing_accommodation": {
+              "number": 174,
+              "prevalence_rate": 33.2
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 534,
+            "percentage": 1.3,
+            "prevalence_rate": 101.9
+          }
+        },
+        {
+          "region": "Bay of Plenty",
+          "categories": {
+            "without_shelter": {
+              "number": 363,
+              "prevalence_rate": 11.8
+            },
+            "temporary_accommodation": {
+              "number": 520,
+              "prevalence_rate": 16.9
+            },
+            "sharing_accommodation": {
+              "number": 2244,
+              "prevalence_rate": 72.7
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 3127,
+            "percentage": 7.6,
+            "prevalence_rate": 101.4
+          }
+        },
+        {
+          "region": "Marlborough",
+          "categories": {
+            "without_shelter": {
+              "number": 75,
+              "prevalence_rate": 15.8
+            },
+            "temporary_accommodation": {
+              "number": 175,
+              "prevalence_rate": 37
+            },
+            "sharing_accommodation": {
+              "number": 171,
+              "prevalence_rate": 36.1
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 421,
+            "percentage": 1,
+            "prevalence_rate": 88.9
+          }
+        },
+        {
+          "region": "Nelson",
+          "categories": {
+            "without_shelter": {
+              "number": 33,
+              "prevalence_rate": 6.5
+            },
+            "temporary_accommodation": {
+              "number": 250,
+              "prevalence_rate": 49.1
+            },
+            "sharing_accommodation": {
+              "number": 144,
+              "prevalence_rate": 28.3
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 427,
+            "percentage": 1,
+            "prevalence_rate": 83.9
+          }
+        },
+        {
+          "region": "Waikato",
+          "categories": {
+            "without_shelter": {
+              "number": 489,
+              "prevalence_rate": 10.7
+            },
+            "temporary_accommodation": {
+              "number": 407,
+              "prevalence_rate": 8.9
+            },
+            "sharing_accommodation": {
+              "number": 2688,
+              "prevalence_rate": 58.7
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 3584,
+            "percentage": 8.7,
+            "prevalence_rate": 78.2
+          }
+        },
+        {
+          "region": "West Coast",
+          "categories": {
+            "without_shelter": {
+              "number": 102,
+              "prevalence_rate": 32.3
+            },
+            "temporary_accommodation": {
+              "number": 90,
+              "prevalence_rate": 28.5
+            },
+            "sharing_accommodation": {
+              "number": 45,
+              "prevalence_rate": 14.3
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 237,
+            "percentage": 0.6,
+            "prevalence_rate": 75.1
+          }
+        },
+        {
+          "region": "Wellington",
+          "categories": {
+            "without_shelter": {
+              "number": 228,
+              "prevalence_rate": 4.5
+            },
+            "temporary_accommodation": {
+              "number": 843,
+              "prevalence_rate": 16.6
+            },
+            "sharing_accommodation": {
+              "number": 2235,
+              "prevalence_rate": 44.1
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 3306,
+            "percentage": 8,
+            "prevalence_rate": 65.2
+          }
+        },
+        {
+          "region": "Otago",
+          "categories": {
+            "without_shelter": {
+              "number": 123,
+              "prevalence_rate": 5.5
+            },
+            "temporary_accommodation": {
+              "number": 456,
+              "prevalence_rate": 20.2
+            },
+            "sharing_accommodation": {
+              "number": 807,
+              "prevalence_rate": 35.8
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 1386,
+            "percentage": 3.3,
+            "prevalence_rate": 61.5
+          }
+        },
+        {
+          "region": "Manawatu-Whanganui",
+          "categories": {
+            "without_shelter": {
+              "number": 171,
+              "prevalence_rate": 7.2
+            },
+            "temporary_accommodation": {
+              "number": 294,
+              "prevalence_rate": 12.3
+            },
+            "sharing_accommodation": {
+              "number": 966,
+              "prevalence_rate": 40.5
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 1431,
+            "percentage": 3.5,
+            "prevalence_rate": 59.9
+          }
+        },
+        {
+          "region": "Canterbury",
+          "categories": {
+            "without_shelter": {
+              "number": 330,
+              "prevalence_rate": 5.5
+            },
+            "temporary_accommodation": {
+              "number": 776,
+              "prevalence_rate": 12.9
+            },
+            "sharing_accommodation": {
+              "number": 1779,
+              "prevalence_rate": 29.7
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 2885,
+            "percentage": 7,
+            "prevalence_rate": 48.1
+          }
+        },
+        {
+          "region": "Taranaki",
+          "categories": {
+            "without_shelter": {
+              "number": 84,
+              "prevalence_rate": 7.1
+            },
+            "temporary_accommodation": {
+              "number": 93,
+              "prevalence_rate": 7.9
+            },
+            "sharing_accommodation": {
+              "number": 348,
+              "prevalence_rate": 29.6
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 525,
+            "percentage": 1.3,
+            "prevalence_rate": 44.7
+          }
+        },
+        {
+          "region": "Southland",
+          "categories": {
+            "without_shelter": {
+              "number": 51,
+              "prevalence_rate": 5.2
+            },
+            "temporary_accommodation": {
+              "number": 120,
+              "prevalence_rate": 12.3
+            },
+            "sharing_accommodation": {
+              "number": 186,
+              "prevalence_rate": 19.1
+            }
+          },
+          "total_severely_housing_deprived": {
+            "number": 357,
+            "percentage": 0.9,
+            "prevalence_rate": 36.6
+          }
+        }
+      ],
+      "national_total": {
+        "total_severely_housing_deprived": 41412
+      },
+      "notes": [
+        "1 Prevalence rate per 10,000 people",
+        "2 Total may not sum due to rounding"
+      ]
+    }
+  }

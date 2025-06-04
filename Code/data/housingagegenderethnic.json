@@ -1,0 +1,308 @@
+{
+    "notes": [
+      "All data in this table do not include 'prorata' proportions of children in non-private dwellings",
+      "Very little ethnicity data were available for people in Emergency and transitional accommodation",
+      "People who reported more than one ethnic group are counted once in each group reported",
+      "MELAA = Middle Eastern, Latin American and African",
+      "Denominator population is NZ usual residents in each category"
+    ],
+  "table_id": "Table 4",
+  "title": "Severely housing deprived people by housing deprivation type, sex, age, and ethnicity – count, percentage, and prevalence rate, 2018 – first three categories",
+  "data": [
+    {
+      "characteristic": "Sex",
+      "categories": [
+        {
+          "category": "Male",
+          "without_shelter": {
+            "number": 1977,
+            "percentage": 54.6
+          },
+          "temporary_accommodation": {
+            "number": 4124,
+            "percentage": 54.8
+          },
+          "sharing_accommodation": {
+            "number": 14355,
+            "percentage": 47.6
+          },
+          "total_severely_housing_deprived": {
+            "number": 20456,
+            "percentage": 49.5
+          },
+          "prevalence_rate_per_10000": 88.2
+        },
+        {
+          "category": "Female",
+          "without_shelter": {
+            "number": 1644,
+            "percentage": 45.4
+          },
+          "temporary_accommodation": {
+            "number": 3402,
+            "percentage": 45.2
+          },
+          "sharing_accommodation": {
+            "number": 15813,
+            "percentage": 52.4
+          },
+          "total_severely_housing_deprived": {
+            "number": 20859,
+            "percentage": 50.5
+          },
+          "prevalence_rate_per_10000": 87.6
+        }
+      ]
+    },
+    {
+      "characteristic": "Age (years)",
+      "categories": [
+        {
+          "category": "<15",
+          "without_shelter": {
+            "number": 576,
+            "percentage": 15.9
+          },
+          "temporary_accommodation": {
+            "number": 585,
+            "percentage": 7.8
+          },
+          "sharing_accommodation": {
+            "number": 6867,
+            "percentage": 22.8
+          },
+          "total_severely_housing_deprived": {
+            "number": 8028,
+            "percentage": 19.4
+          },
+          "prevalence_rate_per_10000": 86.9
+        },
+        {
+          "category": "15-24",
+          "without_shelter": {
+            "number": 324,
+            "percentage": 9.0
+          },
+          "temporary_accommodation": {
+            "number": 1459,
+            "percentage": 19.4
+          },
+          "sharing_accommodation": {
+            "number": 10152,
+            "percentage": 33.6
+          },
+          "total_severely_housing_deprived": {
+            "number": 11935,
+            "percentage": 28.9
+          },
+          "prevalence_rate_per_10000": 192.7
+        },
+        {
+          "category": "25-34",
+          "without_shelter": {
+            "number": 291,
+            "percentage": 8.0
+          },
+          "temporary_accommodation": {
+            "number": 1454,
+            "percentage": 19.4
+          },
+          "sharing_accommodation": {
+            "number": 6138,
+            "percentage": 20.3
+          },
+          "total_severely_housing_deprived": {
+            "number": 7883,
+            "percentage": 19.1
+          },
+          "prevalence_rate_per_10000": 119.2
+        },
+        {
+          "category": "35-44",
+          "without_shelter": {
+            "number": 381,
+            "percentage": 10.5
+          },
+          "temporary_accommodation": {
+            "number": 911,
+            "percentage": 12.1
+          },
+          "sharing_accommodation": {
+            "number": 2319,
+            "percentage": 7.7
+          },
+          "total_severely_housing_deprived": {
+            "number": 3611,
+            "percentage": 8.7
+          },
+          "prevalence_rate_per_10000": 61.5
+        },
+        {
+          "category": "45-64",
+          "without_shelter": {
+            "number": 1410,
+            "percentage": 39.0
+          },
+          "temporary_accommodation": {
+            "number": 2183,
+            "percentage": 29.1
+          },
+          "sharing_accommodation": {
+            "number": 3141,
+            "percentage": 10.4
+          },
+          "total_severely_housing_deprived": {
+            "number": 6734,
+            "percentage": 16.3
+          },
+          "prevalence_rate_per_10000": 56.4
+        },
+        {
+          "category": "65+",
+          "without_shelter": {
+            "number": 633,
+            "percentage": 17.5
+          },
+          "temporary_accommodation": {
+            "number": 914,
+            "percentage": 12.2
+          },
+          "sharing_accommodation": {
+            "number": 1551,
+            "percentage": 5.1
+          },
+          "total_severely_housing_deprived": {
+            "number": 3098,
+            "percentage": 7.5
+          },
+          "prevalence_rate_per_10000": 43.3
+        }
+      ]
+    },
+    {
+      "characteristic": "Ethnicity",
+      "categories": [
+        {
+          "category": "European",
+          "without_shelter": {
+            "number": 2514,
+            "percentage": 73.4
+          },
+          "temporary_accommodation": {
+            "number": 3548,
+            "percentage": 59.5
+          },
+          "sharing_accommodation": {
+            "number": 7512,
+            "percentage": 25.8
+          },
+          "total_severely_housing_deprived": {
+            "number": 13574,
+            "percentage": 35.2
+          },
+          "prevalence_rate_per_10000": 41.2
+        },
+        {
+          "category": "Māori",
+          "without_shelter": {
+            "number": 900,
+            "percentage": 26.3
+          },
+          "temporary_accommodation": {
+            "number": 1089,
+            "percentage": 18.3
+          },
+          "sharing_accommodation": {
+            "number": 10890,
+            "percentage": 37.4
+          },
+          "total_severely_housing_deprived": {
+            "number": 12879,
+            "percentage": 33.4
+          },
+          "prevalence_rate_per_10000": 166.0
+        },
+        {
+          "category": "Pacific",
+          "without_shelter": {
+            "number": 222,
+            "percentage": 6.5
+          },
+          "temporary_accommodation": {
+            "number": 521,
+            "percentage": 8.7
+          },
+          "sharing_accommodation": {
+            "number": 8625,
+            "percentage": 29.6
+          },
+          "total_severely_housing_deprived": {
+            "number": 9368,
+            "percentage": 24.3
+          },
+          "prevalence_rate_per_10000": 245.5
+        },
+        {
+          "category": "Asian",
+          "without_shelter": {
+            "number": 168,
+            "percentage": 4.9
+          },
+          "temporary_accommodation": {
+            "number": 1143,
+            "percentage": 19.2
+          },
+          "sharing_accommodation": {
+            "number": 7299,
+            "percentage": 25.0
+          },
+          "total_severely_housing_deprived": {
+            "number": 8610,
+            "percentage": 22.3
+          },
+          "prevalence_rate_per_10000": 121.7
+        },
+        {
+          "category": "MELAA",
+          "without_shelter": {
+            "number": 33,
+            "percentage": 1.0
+          },
+          "temporary_accommodation": {
+            "number": 172,
+            "percentage": 2.9
+          },
+          "sharing_accommodation": {
+            "number": 525,
+            "percentage": 1.8
+          },
+          "total_severely_housing_deprived": {
+            "number": 730,
+            "percentage": 1.9
+          },
+          "prevalence_rate_per_10000": 103.8
+        },
+        {
+          "category": "Other",
+          "without_shelter": {
+            "number": 63,
+            "percentage": 1.8
+          },
+          "temporary_accommodation": {
+            "number": 64,
+            "percentage": 1.1
+          },
+          "sharing_accommodation": {
+            "number": 108,
+            "percentage": 0.4
+          },
+          "total_severely_housing_deprived": {
+            "number": 235,
+            "percentage": 0.6
+          },
+          "prevalence_rate_per_10000": 40.5
+        }
+      ]
+    }
+  ]
+}
