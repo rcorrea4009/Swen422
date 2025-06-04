@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/treemap.css">
+    <!-- Font Awesome stylesheet for dark mode icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div id="sidenav" class="sidenav">
+        <a href="viz1.html">TreeMap</a>
+        <a href="viz2.html">HeatMap</a>
+        <a href="viz3.html">Dot Matrix</a>
+    </div>
+
+    <main>
+        <button id="toggleDarkMode" class="darkmode-toggle">
+            <i class="fas fa-moon"></i> 
+        </button>
+        
+        <h1>Housing Deprivation Count by Category</h1>
+        <div id="data-info">
+            <h3>Homelessness is not a single experience</h3>
+            <p>Severe housing deprivation is defined as people living in severely inadequate housing due to a lack of access to minimally adequate housing. This means not being able to access a private dwelling to rent or own that has all basic amenities (cooking facilities, safe drinking water, a kitchen sink, a bath or shower, a toilet, and electricity). These amenities allow people to meet their basic needs for living within the walls of their home.</p>
+            <p>This treemap breaks down housing deprivation into distinct categories, showing how people experience it differently. While some lack shelter entirely, others live in temporary, overcrowded, or unsafe conditions. It shows that homelessness is not just about lacking shelter, but a spectrum of living conditions, each demanding specific action.</p>
+        </div>
+        <div id="tree-container">
+            <button id="backButton">BACK</button>
+            <div id="tree-wrapper">
+                <svg id="tree" width="1400" height="700"></svg>
+            </div>
+        </div>
+    </main>
+    
+    <script src="js/treemap.js"></script>
+</body>
+</html>

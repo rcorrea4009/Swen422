@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Secure CSP Policy -->
+        <meta http-equiv="Content-Security-Policy" content="
+            default-src 'self';
+            script-src 'self' https://d3js.org https://unpkg.com 'unsafe-inline';
+            style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com;
+            connect-src 'self' https://d3js.org https://unpkg.com https://cdn.jsdelivr.net;
+            img-src 'self' data: https://unpkg.com;
+            font-src 'self' https://cdnjs.cloudflare.com https://kit-free.fontawesome.com;
+            frame-src 'none';
+        ">
+        <title>Dot Matrix Visualization</title>
+        <script src="https://d3js.org/d3.v7.min.js"></script>
+        <script src="https://d3js.org/topojson.v3.min.js"></script>
+        <script src="https://unpkg.com/three@0.128.0/build/three.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/dotMatrix.css">
+    <script>
+        window.addEventListener('load', function() {
+            if(!window.d3) {
+                document.body.innerHTML = `
+                    <div style="color:red;padding:20px;font-family:Arial;">
+                        <h2>Critical Error: D3.js failed to load!</h2>
+                        <p>Please check:</p>
+                        <ol>
+                            <li>You are connected to the internet</li>
+                            <li>No browser extensions are blocking CDN requests</li>
+                            <li>Try this direct link: <a href="https://d3js.org/d3.v7.min.js" target="_blank">D3.js v7</a></li>
+                        </ol>
+                    </div>
+                `;
+            }
+        });
+    </script>
+    <script src="https://unpkg.com/topojson-client@3"></script>
+    <script src="https://unpkg.com/world-atlas@2/countries-110m.json"></script>
+</head>
+<body>
+    <div id="sidenav" class="sidenav">
+        <a href="viz1.html">TreeMap</a>
+        <a href="viz2.html">HeatMap</a>
+        <a href="viz3.html">Dot Matrix</a>
+    </div>
+
+    <main>
+        <main>
+            <h1>NZ Homelessness Dot Matrix</h1>
+            
+            <div id="filters">
+            </div>
+            <div id="visualizations"></div>
+        </main>
+    </main>
+    
+    <script src="js/dm-script.js"></script>
+</body>
+</html>
