@@ -20,7 +20,7 @@ const colorScale = d3.scaleSequential(d3.interpolateReds)
 document.addEventListener('DOMContentLoaded', async () => {
     try {
         // Load data
-        allData = await d3.json('data/HousingAgeGenderEthnic.json');
+        allData = await d3.json('data/housingagegenderethnic.json');
         renderVisualizations(allData);
         // Setup filter buttons
         setupFilters();
